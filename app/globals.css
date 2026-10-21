@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-fjord: #0B2E4F;
+  --color-aurora: #00A9A5;
+  --color-glacier: #4CC9F0;
+  --color-sun: #FF7A59;
+  --color-graphite: #1B2735;
+  --color-snow: #F4F7FA;
+  --color-danger: #E5484D;
+
+  --background: var(--color-snow);
+  --foreground: var(--color-graphite);
+  --heading: var(--color-fjord);
+  --card: #ffffff;
+  --sidebar: var(--color-fjord);
+  --sidebar-foreground: #ffffff;
+}
+
+.dark {
+  --background: var(--color-fjord);
+  --foreground: #ffffff;
+  --heading: #ffffff;
+  --card: var(--color-graphite);
+  --sidebar: var(--color-fjord);
+  --sidebar-foreground: #ffffff;
+}
+
+@theme inline {
+  --color-fjord: #0B2E4F;
+  --color-aurora: #00A9A5;
+  --color-glacier: #4CC9F0;
+  --color-sun: #FF7A59;
+  --color-graphite: #1B2735;
+  --color-snow: #F4F7FA;
+  --color-danger: #E5484D;
+
+  --font-heading: var(--font-montserrat);
+  --font-sans: var(--font-inter);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--heading);
+}
