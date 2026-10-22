@@ -34,9 +34,14 @@ yarn-error.log*
 .env*
 !.env.example
 
+# onreza
+.onreza/cache/
+.onreza/next-adapter-output.json
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.onreza/

@@ -30,8 +30,8 @@ export function Hamburger({
             <rect x="2" y="14" width="16" height="2" rx="1" />
           </svg>
         </button>
-        <Logo variant="light" height={26} className="dark:hidden" />
-        <Logo variant="dark" height={26} className="hidden dark:block" />
+        <Logo variant="light" height={36} className="dark:hidden" />
+        <Logo variant="dark" height={36} className="hidden dark:block" />
         {notifications ?? <div className="w-9" />}
       </header>
 
@@ -44,7 +44,7 @@ export function Hamburger({
           />
           <aside className="fixed inset-y-0 left-0 z-50 flex w-72 flex-col bg-fjord text-white">
             <div className="flex h-14 items-center justify-between px-4 border-b border-white/10">
-              <Logo variant="dark" height={28} />
+              <Logo variant="dark" height={40} />
               <button
                 type="button"
                 aria-label="Закрыть меню"
