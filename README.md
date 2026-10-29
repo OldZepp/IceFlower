@@ -49,14 +49,19 @@
 
 ## Скриншоты
 
-Скриншоты интерфейса будут добавлены позднее.
+## Скриншоты
 
-<!--
-Когда изображения будут загружены, например в docs/screenshots/,
-можно включить их так:
-![Kanban-доска](docs/screenshots/kanban.png)
-![Мои задачи](docs/screenshots/my-tasks.png)
--->
+### Kanban-доска
+![Kanban-доска IceFlower](docs/screenshots/canban.png)
+
+### Мои задачи
+![Мои задачи IceFlower](docs/screenshots/my-tasks.png)
+
+### Карточка задачи
+![Карточка задачи IceFlower](docs/screenshots/task-details.png)
+
+### Проекты
+![Проекты IceFlower](docs/screenshots/projects.png)
 
 ## Локальный запуск
 
